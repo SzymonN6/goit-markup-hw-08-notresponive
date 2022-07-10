@@ -1,0 +1,25 @@
+.mobile-menu {
+  background-color: white;
+  border: none;
+  margin-right: 15px;
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      fill: $brand-color;
+      cursor: pointer;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-menu {
+    display: none;
+  }
+}

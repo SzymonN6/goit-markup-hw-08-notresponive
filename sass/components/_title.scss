@@ -1,0 +1,71 @@
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .title {
+    background-color: #2f303a;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../Images/Background-team480x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .title {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../Images/Background-team480x400@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1200px) {
+  .title {
+    background-color: #2f303a;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../Images/Background-team768x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    background-color: #2f303a;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../Images/Background-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

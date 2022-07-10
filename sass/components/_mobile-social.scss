@@ -1,0 +1,31 @@
+.mobile-social {
+  list-style: none;
+  display: flex;
+  margin-top: 64px;
+  margin-left: 40px;
+  padding: 0px;
+
+  &__item {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    margin-left: 10px;
+    &:first-of-type {
+      margin-left: 0px;
+    }
+    &:last-of-type {
+      border: none;
+    }
+  }
+
+  &__text {
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    text-decoration: none;
+    transform: rotate(90deg);
+  }
+}

@@ -1,0 +1,12 @@
+.js-close-menu {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 21px;
+  right: 25px;
+  cursor: pointer;
+
+  &:hover {
+    fill: $brand-color;
+  }
+}

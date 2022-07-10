@@ -1,0 +1,33 @@
+.modal-info {
+  width: 370px;
+  height: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-info {
+    width: 448px;
+    height: 23px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 40px;
+    margin: 12px auto;
+    padding-bottom: 20px;
+  }
+}

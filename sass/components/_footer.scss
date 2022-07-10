@@ -1,0 +1,19 @@
+.footer {
+  min-width: 480px;
+  background: #2f303a;
+  height: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    min-width: 768px;
+    background: #2f303a;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    min-width: 1200px;
+    background: #2f303a;
+    height: 252px;
+  }
+}

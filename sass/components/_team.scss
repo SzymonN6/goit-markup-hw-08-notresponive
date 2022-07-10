@@ -1,0 +1,27 @@
+.team {
+  background: #f5f4fa;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team {
+    background: #f5f4fa;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    background: #f5f4fa;
+    height: 708px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}

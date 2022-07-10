@@ -1,0 +1,43 @@
+.section-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $brand-font-color;
+  padding-top: 60px;
+
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .section-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $brand-font-color;
+    padding-top: 60px;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $brand-font-color;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,15 @@
+.clients {
+  height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    height: 372px;
+  }
+}

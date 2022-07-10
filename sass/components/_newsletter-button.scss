@@ -1,0 +1,86 @@
+.newsletter-button {
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: $brand-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  padding-right: 42px;
+  cursor: pointer;
+  margin: 20px 111px 60px 129px;
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 3px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .newsletter-button {
+    width: 200px;
+    height: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: $brand-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    padding-right: 42px;
+    cursor: pointer;
+    margin: 20px 284px 60px 284px;
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      margin-left: 24px;
+      margin-top: 3px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .newsletter-button {
+    width: 200px;
+    height: 50px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: $brand-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 70px;
+    left: 86px;
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      margin-left: 24px;
+      margin-top: 3px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.handle-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 94px;
+  list-style: none;
+  padding: 0px;
+
+  &__item {
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__description {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 224px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
